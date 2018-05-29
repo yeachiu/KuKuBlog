@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+		#leftlist li a {display: block;    color: #333;}
+		#leftlist li a span {font-weight: 500;font-size: 111%;}
+		#leftlist .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    	z-index: 2; background-color: #cfd0d6;border-color: #cfd0d6;color: #fff;}
+		/*手机*/
+		@media screen and (max-width: 768px){
+			.sidebar {display: none;}
+		}
+		/*平板*/
+		@media screen and (min-width: 768px,max-width: 992px){
+
+		}
+		/*桌面显示器*/
+		@media screen and (min-width: 992px){
+			.sidebar{position: fixed; top: 51px;bottom: 0; left: 0; z-index: 1000; display: block; padding: 20px; overflow-x: hidden;    overflow-y: auto;    background-color: #f5f5f5;    border-right: 1px solid #eee;}
+		}
+		

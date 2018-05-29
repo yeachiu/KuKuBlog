@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+		.writeblog {  }
+		.settag {    margin: 20px;}
+		.settag .blogtags {    padding-left: 20px;}
+		.settag .blogtags span{    display: inline-block;}
+		.settag .form-inline {margin: 10px 8px;}
+		.settag input#submit {    margin: 37px 27px;}
+		.tijiao {text-align: center;}
+		
+		.remove {    cursor: pointer;}

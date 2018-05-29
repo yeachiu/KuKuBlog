@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+header {    height: 80px;    margin-bottom: 10px;}
+		/*right.jsp*/
+		#calen .Table {    width: 100%;  }
+		#calen .box {text-align: center; width: 100%; font-weight: bold;  font-size: 150%;margin: 0;}
+		#calen .redTr {color: red;  text-align: center;  background: #ecf1ec;}
+		#calen th { text-align: center;}
+		.tags {  min-height: 300px;}
+		.tags h5 {  font-size: 130%;  font-weight: bold;}
+		.tags .righttags a {margin: 2px 2px;    display: inline-block;}
+			/*end*/
+		/*手机*/
+		@media screen and (max-width: 768px){
+			#calen{display: none;}
+		}
+		/*平板*/
+		@media screen and (min-width: 768px,max-width: 992px){
+
+		}
+		/*桌面显示器*/
+		@media screen and (min-width: 992px){
+
+		}

@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+		body {background:#f6f6f6;}
+		.article {padding: 35px;  background: #ffffff;  border-radius: 4px;  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);margin-top: 150px;width: 80%;margin:0 auto;margin-bottom:100px;}
+		.blogTitle {margin-bottom: 20px;color: #f5961c;}
+		.blogTime {    font-weight: bold; line-height: 14px;  font-size: 13px;color: #727272;  overflow: hidden;margin: 0 20px 10px 0;}
+		.viewNumber { font-weight: bold;  color: #727272; margin: 0 20px 10px 0;}
+		.blogContent {    font-size: 102%;    line-height: 1.68571;}
+		.article h1,h2,h3,h4,h5,h6 {line-height: 1.68571;}
+		.article p {    margin: 5px 0 5px;}
+		#minheight {min-height:500px;overflow:hidden;		}
+		
+		/*手机*/
+		@media screen and (max-width: 768px){
+			.article{width: 100%;}
+				
+		}
+		/*平板*/
+		@media screen and (min-width: 768px,max-width: 992px){
+			.dropdowninphone{display: }
+		}
+		/*桌面显示器*/
+		@media screen and (min-width: 992px){
+			.dropdowninphone{display:none; }
+			.container{		width: 1260px;	}
+		}
+		

@@ -1,0 +1,28 @@
+
+body {background-color: rgba(153, 211, 228, 0.8);overflow: hidden;}
+canvas {background-color: rgba(153, 211, 228, 0.8);display: block;margin: 0 auto;}
+
+#log {position: fixed;left: 0;right: 0;margin: 0 auto;top: 10%;width: 400px;}
+.demmo {margin:10px;}
+@media screen and (min-height:800px) {
+	#log {top: 20%;}
+}
+
+@media screen and (max-width:600px) {
+	#log {width: 300px;}
+}
+#log ul li a {font-size: 120%;
+    font-weight: bold;
+    color: #555;}
+.nav-tabs {
+    border-bottom: 0;
+    width: fit-content;
+    margin: 0 auto;margin-bottom: 30px;
+}
+.forget span a,.forget span a:visited {font-size: 80%;color: #337ab7;}
+.forget span a:hover {text-decoration: underline;}
+.t-pico {font-size: smaller;}
+
+footer {padding: 10px;bottom: 0;width: 100%;position: fixed;left: 0;right: 0;margin: 0 auto;}
+footer #icp {color: #777;}
+footer span a {color: #777;}

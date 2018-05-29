@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+		#tit {margin-bottom: 20px;    color: #f5961c;}
+		header {    height: 80px;    margin-bottom: 10px;}
+		/*手机*/
+		@media screen and (max-width: 768px){
+			.dropdown{display: none;}	
+		}
+		/*平板*/
+		@media screen and (min-width: 768px,max-width: 992px){
+			.dropdowninphone{display: }
+		}
+		/*桌面显示器*/
+		@media screen and (min-width: 992px){
+			.dropdowninphone{display:none; }
+			.container{		width: 1260px;	}
+		}
+		a:hover {text-decoration:none;font-weight:blod;}
+		#tagsllist {    width: 80%;    margin: 0 0 10px 20px;}
+/*主体部分*/
+.layout{min-height: 520px;}
+
+/*右侧标签栏*/
+#righttags a {    margin: 2px 2px;    display: inline-block;}
+
+/*aboutme*/
+#amTit {color: #f5961c;    font-size: 22px;    text-align: center;    margin-bottom: 20px;}
+#amCon {width: 90%; padding: 20px;border: 1px solid #c0c7c1; margin: 0 auto;min-height: 700px;    background-color: #f9f8f8;}
+
+/*尾部*/
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #864acb;
+}
+

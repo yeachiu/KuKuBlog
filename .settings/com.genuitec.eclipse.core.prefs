@@ -1,0 +1,5 @@
+#Mon Apr 16 07:08:46 CST 2018
+eclipse.preferences.version=1
+validator.Checked=WebRoot/jsps/js,WebRoot/jsps/blog/editblog.jsp,WebRoot/jquery/jquery-3.3.1.min.js
+validator.Revalidate=true
+validator.Unchecked=WebRoot/jsps/js/94d26e4d20d5.js

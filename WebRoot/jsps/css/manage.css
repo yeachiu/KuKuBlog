@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+header {    height: 80px;    margin-bottom: 10px;}
+		a.list-group-item {    padding-left: 40px;}
+		.heading {    border-left: 3px #e29217 solid;    padding: 0px 10px;}
+		/*手机*/
+		@media screen and (max-width: 768px){
+			.sidebar {display: none;}
+			.dropdown{display: none;}
+	
+		}
+		/*平板*/
+		@media screen and (min-width: 768px,max-width: 992px){
+			.dropdowninphone{display: }
+		}
+		/*桌面显示器*/
+		@media screen and (min-width: 992px){
+			.dropdowninphone{display:none; }
+			.container{		width: 1260px;	}
+			.sidebar{position: fixed; top: 51px;bottom: 0; left: 0; z-index: 1000; display: block; padding: 20px; overflow-x: hidden;    overflow-y: auto;    background-color: #f5f5f5;    border-right: 1px solid #eee;}
+		}
+	.bloglist a{color: #337ab7;}
+	.bloglist a:focus, a:hover {    color: #e2921e;    text-decoration: none;    font-weight: bold;}
+	.bloglist {margin-top: 20px;}
+	.bloglist span:hover {color: #e2921e;  font-weight: bold;}
+	.bloglist span {    cursor: pointer;color: #337ab7;}
+	#addtag1 {    text-align: right;    padding: 10px 20px 10px 0;}
+	.sidebar li a {display: block;    color: #333;}
+	.sidebar li a span {font-weight: 500;}
+	.sidebar .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    	z-index: 2; background-color: #cfd0d6;border-color: #cfd0d6;color: #fff;text-decoration:none !important;}
+    .sidebar li a:hover,.sidebar li a:focus  {text-decoration:none;}
+    
+/*修改个人资料*/
+		.editmess {  }
+		#editForm {margin: 0 auto;}
+		#editForm #save {  display: block;  margin: 20px auto;}
+		.msgbox {padding: 1px 0;    background-color: #ece7e7;    text-align: center;}
+		.errorbox {padding: 1px 0;    background-color: #a94442;    text-align: center; color:#fff;}
+/*修改密码*/
+    .form-editPwd button{margin-top: 30px;}
+    .form-editPwd input[type="password"] {border-top-left-radius: 0; border-top-right-radius: 0;
+       border-bottom-right-radius: 0;    border-bottom-left-radius: 0;margin-bottom:0;}
+ 	/* #msg {    font-size: 120%;    max-width: 330px;    margin: 0 auto;} */
+ 
+ /*操作通知*/	
+ 	#msg {
+    border-radius: 12px;
+    background-color: #ccccccb0;
+    width: 10%;
+    height: 30px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    z-index: 28;
+}
+ 	.msgtext {
+    text-align: center;
+    line-height: 30px;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+}
+ 	
+ 	
